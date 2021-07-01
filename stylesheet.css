@@ -1,0 +1,59 @@
+.main
+{
+    background-color: rgba(53,18,0,0.14);
+}
+.head-line
+{
+    font-size:80px;
+    color:linen;
+    text-align: center;
+}
+.p
+{
+    font-size: 20px;
+    color:black;
+
+}
+.box
+{
+    width: 400px;
+    height: 250px;
+    background-color:white;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.box1
+{
+    display:flex;
+}
+.box2
+{
+    display:flex;
+}
+.box3
+{
+    display:flex;
+}
+.box4
+{
+    display:flex;
+}
+.box5
+{
+    display:flex;
+}
+li
+{
+ list-style-type:none;
+}
+.LowerBlock
+{
+    display:flex;
+    margin-left: 500px;
+}
+.LowerBlock li
+{
+    margin-right: 40px;
+}
+
+
