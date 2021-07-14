@@ -1,0 +1,55 @@
+.main
+{
+    background-color: #F5F5F5;
+}
+.title
+{
+    color:#EBDFDF;
+    text-align:center;
+    font-size: 5rem;
+}
+.todo
+{
+    background:white;
+    border:.5px solid lightgray;
+    box-shadow:  0px 2px 4px 0px rgba(50, 50, 50, 0.45);
+    margin:0 auto;
+    max-width: 40%;
+    height:65%;
+    position:relative;
+}
+.list__item
+{
+    display:flex;
+    border:.5px solid #E0E0E0;
+    height: 15%;
+    padding-left: 2px;
+}
+.search__text
+{
+    padding-left: 2px;
+}
+.item__check
+{
+    padding-left: 2px;
+}
+.item__text
+{
+    padding-left: 4px;
+}
+.todo__counter
+{
+    margin-left:0;
+}
+.todo__filters
+{
+    margin:0 auto;
+}
+.todo__filter
+{
+    padding-left: 8px;
+}
+.todo__clear
+{
+    margin-right:0;
+}

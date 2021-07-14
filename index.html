@@ -3,60 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <style>
-
-    </style>
+    <link rel="stylesheet" href="main2.css">
 </head>
-
 <body>
-    <div class="main">
+<div class="main">
+    <div class="title">
+        todos
+    </div>
+    <div class="todo">
+        <div class="todo__body">
+            <div class="list__item">
+                <div class="search__icon">
+                    <img src="icons/select-all.png">
+                </div>
+                <span class="search__text">
+            <input type="text" placeholder="What needs to be done">
+          </span>
+            </div>
 
-        <div class="head-line">
-            todos
+            <div class="list__item">
+                <div class="item__check">
+                    <input type="checkbox">
+                </div>
+                <span class="item__text">
+            <input type="text" placeholder="HTML">
+          </span>
+            </div>
+
+            <div class="list__item">
+                <div class="item__check">
+                    <input type="checkbox">
+                </div>
+                <span class="item__text">
+            <input type="text" placeholder="CSS">
+          </span>
+            </div>
+
+            <div class="list__item">
+                <div class="item__check">
+                    <input type="checkbox">
+                </div>
+                <span class="item__text">
+            <input type="text" placeholder="JS">
+          </span>
+            </div>
+
+            <div class="list__item">
+                <div class="item__check">
+                    <input type="checkbox">
+                </div>
+                <span class="item__text">
+            <input type="text" placeholder="JS tools">
+          </span>
+            </div>
+            <!--
+                    <div class="list__item">
+                      <span class="item__text">
+                        <input type="text" placeholder="">
+                      </span>
+                    </div>
+            -->
         </div>
+        <div class="todo__footer">
+            <div class="list__item">
+                <div class="todo__counter">
+                    <span class="counter__value">3</span>
+                    <span class="counter__text">items left</span>
+                </div>
+                <div class="todo__filters">
+                    <span class="todo__filter">All</span>
+                    <span class="todo__filter">Active</span>
+                    <span class="todo__filter">Completed</span>
+                </div>
+                <div class="todo__clear">
+                    <span class="clear">Clear completed</span>
+                </div>
+            </div>
 
-        <div class="box">
-        <ul>
-            <li>
-                <div class="box1">
-                    <img src="img/pic1.JPG"> <p>What needs to be done?</p>
-                </div>
-            </li>
-            <li>
-                <div class="box2">
-                <img src="img\empty_square.JPG"> <p>HTML</p>
-                </div>
-            </li>
-            <li>
-                <div class="box3">
-                <img src="img\green_square.JPG"> <p>CSS</p>
-                </div>
-            </li>
-            <li>
-                <div class="box4">
-                <img src="img\empty_square.JPG"> <p>JS</p>
-                </div>
-            </li>
-            <li>
-                <div class="box5">
-                <img src="img\empty_square.JPG"> <p>JS tools</p>
-                </div>
-            </li>
-        </ul>
-        </div>
-
-        <div>
-        <ul class="LowerBlock">
-            <li>3 items left</li>
-            <li>All</li>
-            <li>Active</li>
-            <li>Completed</li>
-            <li>Clear completed</li>
-        </ul>
         </div>
 
     </div>
 
+</div>
 </body>
 </html>
